@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.menu{
+    display: flex;
+    justify-content:space-around;
+    margin-top:20px;
+    background-color: FFFFFF;
+    padding: 20px;
+    align-items: center;
+
+}
+.navbar ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+
+/* ------------------------- */
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    background-image: url("../images/Group\ 14.png");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+
+
+}
+.folow{
+   border: none;
+   border-radius: 5px;
+   background-color: #E7E6E9;
+    margin-top: -20px;  
+}
+.folow ul li{
+    font-size: 20px;
+    padding:10px;
+    
+}
+.folow ul li{
+    text-align: right;
+    font-size: 20px;
+  
+    
+}
+.rightside img{
+    width: 400px;
+    height: 400px;
+} 
+
+.text-leaner{
+    
+    background: -webkit-linear-gradient(#DF4CC1, #A254E2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.fa{
+    color:#A254E2;
+}
+.span span{
+    display: block;
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    
+    
+
+}
+.button button{
+    margin:10px 10px;
+    font-size: 20px;
+    padding:20px 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    gap: 20px;
+    
+}
+.gamer-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFF9FC;
+    height: 600px;
+
+}
+.gamer-left img{
+    width:600px;
+}
+.gamer-right{
+    text-align: right;
+    font-size: 20px;
+}
+.gamer{
+    font-size: 22px;
+    background: -webkit-linear-gradient(#DF4CC1, #A254E2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-button button{
+    margin:20px 0;
+    padding:10px 30px;
+    border-radius: 30px;
+    border: none;
+    font-size:20px;
+
+}
+
+
+
+/* -------------------- */
+.container{
+    
+    transform: translate(0%, -5%);
+}
+.overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    background:black;
+    cursor: pointer;
+    border-radius: 10px;
+    border:3px solid #DF4CC1;
+
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    color: white;
+    text-align: center;
+
+}
+
+.container:hover .overlay{
+    opacity: 0.8;
+    border-radius: 19px;
+   
+}
+.fa-play-circle{
+    font-size: 50px;
+}
+/* --------------------- */
+.gamer-para{
+    margin-top: 10px;
+}
+.online-gamee{
+    margin-top: 30px;
+    padding: 30px;
+}
+.online-game-heading h2{
+    margin-bottom: 20px;
+}
+.online-game-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 20px;
+    margin-top: 50px;
+
+}
+
+.video-section img{
+    width: 250px;
+    height: 320px;
+    
+}
+.videos-title{
+    width: 252px;
+    flex-wrap: wrap;
+    font-size: 15px;
+    color:#717173 ;
+    
+}
+.play-instant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-evenly ;
+    margin-top:34px;
+}
+.play-ins-context{
+    text-align: right;
+    
+}
+
+
+.main-img img{
+    width: 400px;
+   
+}
+.thumbline img{
+    position: relative;
+    width: 200px;
+    top: -185px;
+    right: 74px;   
+}
+.careear-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #FF42A5;
+ 
+    
+}
+.Careers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+   
+
+  
+    
+}
+.career-heading{
+    grid-area: career-heading;
+}
+.employ-list{
+    grid-area: employ-list;
+}
+.employ-address{
+    grid-area: employ-address;
+}
+
+
+.career-left-side{
+    font-size:15px;
+    line-height: 30px;
+    color: white;
+   text-align: justify;
+    /* position: relative; */
+    gap: 10px;
+    display: grid;
+   
+    justify-content: space-around;
+    grid-template-areas:
+    "career-heading career-heading  career-heading  career-heading"
+    "career-heading career-heading  career-heading  career-heading"
+    "employ-list  employ-list    employ-address  employ-address"
+    "employ-list  employ-list    employ-address  employ-address"
+    "employ-list  employ-list    employ-address  employ-address"
+    ;
+}
+
+.career-button button{
+    padding:20px 50px;
+    background-color: #FFFFFF;
+    color: #FF42A5;
+    font-style: bolder;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.career-left-side ul li{
+   list-style: none;
+}
+.career-right-side img{
+    width: 700px;
+    position: relative;
+    right: -200px;
+    height: 500px;
+    
+}
+.game{
+    display: flex;
+      height: 300px;
+      padding: 20px;
+      /* margin-top: 20px; */
+      background-color: #fff9fc;
+      justify-content: center;
+      align-items: center;
+}
+.game-corner{
+    display: flex;
+    flex-wrap: wrap;   
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 20px 0px 20px 0px;
+    width: 100%;
+   
+
+  
+    
+}
+.box-button{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 2px solid #FFF9FC;
+    background-color: #FFFFFF;
+    border-radius: 45px;
+    padding: 0px 5px;
+}
+.box-button:hover{
+    border: .5px solid #DF4CC1;
+    color: #FF42A5;
+    box-shadow: -0px -0px 3px #DF4CC1;
+    cursor: pointer;
+}
+
+.footer-section{
+    height: 400px;
+    background-color: #0B0223;
+   
+}
+
+.footer-section{
+    text-align: center;
+    margin-top: 30px;
+}
+.footer-logo{
+    padding: 20px 0px;
+  margin-top: 30px;
+  justify-content: center;
+  align-items:center;
+  
+}
+.footer-logo h1 a{
+    text-decoration: none;
+    color: #FFF9FC;
+}
+.footer-menu ul{
+    list-style: none ;
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color:#FFF9FC ;
+    
+    
+}
+.footer-social-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-social-menu ul li a{
+    text-decoration: none;
+    
+}
+.footer-menu-two{
+   margin-top: 20px;
+}
+.footer-menu-two ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-menu-two ul li a{
+    color:#9793A1;
+    font-size: 12px;
+}
+.copy-right-section{
+    margin: 20px;
+    color:#9793A1;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.footer-social-menu ul li a{
+    color: #FFF9FC;
+    font-size: 30px;
+}
+.footer-social-menu ul li a:hover{
+    color: #dd0772;
+    font-size: 30px;
+}
+
+
+
